@@ -1,0 +1,26 @@
+.contato{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    border-radius: 999px;
+}
+
+.button:hover{
+    background-color: var(--bg);
+    color: var(--text);
+    transition: 300ms all ease-in-out;
+}
+
+.h2{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}

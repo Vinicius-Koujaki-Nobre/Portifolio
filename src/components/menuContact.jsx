@@ -1,4 +1,4 @@
-import style from './menu.module.css'
+import style from './menuContact.module.css'
 
 export const Menu = (props) => {
     return (
@@ -9,11 +9,8 @@ export const Menu = (props) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        {/* talvez ainda caia o uso de uma condicional para checar a posição do usuário */}
-                        {/* e assim poder fazer diferente. */}
                         <a className="nav-link" href={'/'}>{props.option01}</a>
                         <a className="nav-link" href="#s2">{props.option02}</a>
-                        <a className="nav-link" href="/contact">{props.option03}</a>
                     </div>
                 </div>
             </div>
