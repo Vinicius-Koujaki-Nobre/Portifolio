@@ -7,7 +7,7 @@ import {
 } from "react-router";
 
 import './index.css'
-import App from './App.jsx'
+import FrontPage from './FrontPage.jsx'
 import Contact from './Contact.jsx';
 
 import { Analytics } from "@vercel/analytics/react"
@@ -19,7 +19,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <FrontPage />,
   },
   {
     path: "/contact",

@@ -1,4 +1,4 @@
-import photo1 from '../images/github.png'
+import photo1 from '../images/profile.png'
 
 export const profile = [
     {
